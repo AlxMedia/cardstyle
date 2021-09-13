@@ -519,7 +519,7 @@ if ( ! function_exists( 'cardstyle_get_featured_post_ids' ) ) {
 	function cardstyle_get_featured_post_ids() {
 		$args = array(
 			'category'		=> absint( get_theme_mod('featured-category','') ),
-			'numberposts'	=> absint( get_theme_mod('featured-posts-count','0')),
+			'numberposts'	=> absint( get_theme_mod('featured-posts-count','4')),
 		);
 		$posts = get_posts($args);
 		if ( !$posts ) return false;
@@ -635,11 +635,11 @@ if ( ! function_exists( 'cardstyle_pre_get_posts' ) ) {
 		if ( $query->is_home() ) {
 
 			// Featured posts enabled
-			if ( get_theme_mod('featured-posts-count','0') != '0' ) {
+			if ( get_theme_mod('featured-posts-count','4') != '0' ) {
 				// Get featured post ids
 				$featured_post_ids = cardstyle_get_featured_post_ids();
 				// Exclude posts
-				if ( $featured_post_ids && !get_theme_mod('featured-posts-include') )
+				if ( $featured_post_ids && get_theme_mod('featured-posts-include','off') =='on' )
 					$query->set('post__not_in', $featured_post_ids);
 			}
 		}

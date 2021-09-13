@@ -1,5 +1,11 @@
 #wrapper { min-width: 320px; }
 
+@media only screen and (max-width: 1080px) {
+
+	.featured-title { font-size: 20px; }
+
+}
+
 /* ------------------------------------------------------------------------- *
  *  Sidebar : 960px > 480px
 /* ------------------------------------------------------------------------- */
@@ -164,6 +170,9 @@
 	.site-title { font-size: 32px; }
 	
 	/* blog */
+	.slick-featured-wrap-outer { margin-bottom: 0; }
+	.slick-featured-nav .slick-next { right: 0; }
+	.slick-featured-nav .slick-prev { left: 0; }	
 	.blog-card-outer { box-shadow: none; }
 	.blog-card-inner-inner { left: 20px; right: 20px; }
 	.blog-card-author { left: 20px; }
