@@ -72,8 +72,18 @@ Screenshot images
 License: CC0 1.0 Universal (CC0 1.0)
 Source: https://stocksnap.io
 
-header images
-1. https://stocksnap.io/photo/X - CC0 1.0 Universal (CC0 1.0)
+Content images
+1. https://stocksnap.io/photo/3VLGQNBZP2 - CC0 1.0 Universal (CC0 1.0)
+2. https://stocksnap.io/photo/693PZB7YZT - CC0 1.0 Universal (CC0 1.0)
+3. https://stocksnap.io/photo/13LKG0AGI0 - CC0 1.0 Universal (CC0 1.0)
+
+Sidebar images
+1. https://stocksnap.io/photo/IPXQTD44G8 - CC0 1.0 Universal (CC0 1.0)
+2. https://stocksnap.io/photo/13LKG0AGI0 - CC0 1.0 Universal (CC0 1.0)
+3. https://stocksnap.io/photo/3VLGQNBZP2 - CC0 1.0 Universal (CC0 1.0)
+4. https://stocksnap.io/photo/693PZB7YZT - CC0 1.0 Universal (CC0 1.0)
+5. https://stocksnap.io/photo/76X7PJUIMF - CC0 1.0 Universal (CC0 1.0)
+6. https://stocksnap.io/photo/CLCT9SWF9E - CC0 1.0 Universal (CC0 1.0)
 
 == Changelog ==
 
