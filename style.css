@@ -506,7 +506,7 @@ h1, h2, h3, h4, h5, h6 { color: #333; font-weight: 300; -ms-word-wrap: break-wor
 
 /*  base : layout
 /* ------------------------------------ */
-#wrapper { background: #fff; border-radius: 20px; min-width: 1024px; max-width: 1080px; margin: 40px auto; position: relative; height: 100%; overflow: hidden; padding-left: 80px; }
+#wrapper { background: #fff; border-radius: 20px; min-width: 1024px; max-width: 1080px; margin: 40px auto; position: relative; height: 100%; padding-left: 80px; }
 #wrapper-outer { padding: 0 20px; }
 #wrapper-bg { background: linear-gradient(90deg, #98ca2f 0%, #1a9b41 100%); position: absolute; left: 0; right: 0; top: 0; height: 150px; z-index: 0; }
 #wrapper-bg:after { content:""; display: block; background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(238,238,238,1) 100%); position: absolute; left: 0; right: 0; top: 150px; height: 200px; z-index: 0; }
@@ -658,14 +658,14 @@ box-shadow: 0 0 2px rgba(255,255,255,0.4);
 /* ------------------------------------------------------------------------- *
  *  Section: Header
 /* ------------------------------------------------------------------------- */
-#header { background: #fff; position: relative; z-index: 9; padding: 0 40px; }
+#header { background: #fff; position: relative; z-index: 9; padding: 0 40px; border-radius: 0 20px 0 0; }
 #header-sticky.sticky-element-sticky { pointer-events: none; }
 @media only screen and (min-width: 1081px) {
 	#header { pointer-events: auto; -webkit-transition: all 0.25s ease-in-out; transition: all 0.25s ease-in-out; -webkit-transform: translate3d(0, 0, 0); transform: translate3d(0, 0, 0); }
 	#header.hide-scroll { -webkit-transform: translateY(-100%); transform: translateY(-100%); }
 }
 
-.s2 { background: #fff; position: absolute; top: 0; left: 0; bottom: 0; width: 80px; z-index: 99; }
+.s2 { background: #fff; border-radius: 20px 0 0 0; position: absolute; top: 0; left: 0; bottom: 0; width: 80px; z-index: 99; }
 .s2 .social-links { float: left; margin-top: 20px; width: 100%; }
 .s2 .social-links li { margin: 0 auto; padding: 4px 0; width: 100%; position: relative; }
 .s2 .social-links li:before { content:""; height: 1px; background: rgba(0,0,0,0.08); position: absolute; left: 30px; right: 30px; top: 0; }
