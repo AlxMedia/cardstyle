@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Cardstyle\n"
-"POT-Creation-Date: 2021-09-13 13:53+0200\n"
+"POT-Creation-Date: 2021-09-15 12:17+0200\n"
 "PO-Revision-Date: 2018-09-21 21:27+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -731,24 +731,36 @@ msgid "Max-width of the container."
 msgstr ""
 
 #: functions/theme-options.php:662
-msgid "Header Logo Image Max-height"
+msgid "Content Max-width"
 msgstr ""
 
 #: functions/theme-options.php:663
+msgid "Max-width of the content on posts and pages"
+msgstr ""
+
+#: functions/theme-options.php:676
+msgid "Header Logo Image Max-height"
+msgstr ""
+
+#: functions/theme-options.php:677
 msgid ""
 "Your logo image should have the double height of this to be high resolution"
 msgstr ""
 
-#: functions/theme-options.php:676
+#: functions/theme-options.php:690
 msgid "Primary Color"
 msgstr ""
 
-#: functions/theme-options.php:684
+#: functions/theme-options.php:698
 msgid "Gradient Left"
 msgstr ""
 
-#: functions/theme-options.php:692
+#: functions/theme-options.php:706
 msgid "Gradient Right"
+msgstr ""
+
+#: functions/theme-options.php:714
+msgid "Background Color"
 msgstr ""
 
 #: header.php:19

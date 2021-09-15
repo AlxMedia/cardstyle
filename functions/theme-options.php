@@ -655,6 +655,20 @@ Kirki::add_field( 'cardstyle_theme', array(
 		'step'	=> '1',
 	),
 ) );
+// Styling: Content Max-width
+Kirki::add_field( 'cardstyle_theme', array(
+	'type'			=> 'slider',
+	'settings'		=> 'content-width',
+	'label'			=> esc_html__( 'Content Max-width', 'cardstyle' ),
+	'description'	=> esc_html__( 'Max-width of the content on posts and pages', 'cardstyle' ),
+	'section'		=> 'styling',
+	'default'		=> '740',
+	'choices'     => array(
+		'min'	=> '500',
+		'max'	=> '1920',
+		'step'	=> '1',
+	),
+) );
 // Styling: Header Logo Max-height
 Kirki::add_field( 'cardstyle_theme', array(
 	'type'			=> 'slider',
@@ -692,4 +706,12 @@ Kirki::add_field( 'cardstyle_theme', array(
 	'label'			=> esc_html__( 'Gradient Right', 'cardstyle' ),
 	'section'		=> 'styling',
 	'default'		=> '#1a9b41',
+) );
+// Styling: Background Color
+Kirki::add_field( 'cardstyle_theme', array(
+	'type'			=> 'color',
+	'settings'		=> 'color-background',
+	'label'			=> esc_html__( 'Background Color', 'cardstyle' ),
+	'section'		=> 'styling',
+	'default'		=> '#ffffff',
 ) );

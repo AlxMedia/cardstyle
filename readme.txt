@@ -93,6 +93,8 @@ Sidebar images
 * Fixed avatar size for high res devices
 * Fixed more visible search button focus state
 * Fixed minor css styling issues
+* Added background color styling option
+* Added content max-width styling option
 
 = 1.0.0 - 2021-09-13 =
 * Initial release

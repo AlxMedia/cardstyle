@@ -101,6 +101,14 @@ if ( ! function_exists( 'cardstyle_dynamic_css' ) ) {
 					$styles .= '#wrapper { max-width: '.esc_attr( get_theme_mod('container-width') ).'px; }'."\n";
 				}
 			}
+			// content max-width
+			if ( get_theme_mod('content-width','740') != '740' ) {
+				$styles .= '
+.entry-header,
+.entry-footer,
+.entry > :not(.alignfull) { max-width: '.esc_attr( get_theme_mod('content-width') ).'px; }
+				'."\n";
+			}			
 			// primary color
 			if ( get_theme_mod('color-1','#61b537') != '#61b537' ) {
 				$styles .= '
@@ -137,6 +145,13 @@ if ( ! function_exists( 'cardstyle_dynamic_css' ) ) {
 .slick-featured-nav .slick-next:hover,
 .slick-featured-nav .slick-prev:focus,
 .slick-featured-nav .slick-next:focus { background: linear-gradient(90deg, '.esc_attr( get_theme_mod('gradient-left') ).' 0%, '.esc_attr( get_theme_mod('gradient-right') ).' 100%); }
+				'."\n";
+			}
+			// background color
+			if ( get_theme_mod('color-background','#ffffff') != '#ffffff' ) {
+				$styles .= '
+body { background-color: '.esc_attr( get_theme_mod('color-background') ).'; }
+#wrapper-bg:after { display: none; }
 				'."\n";
 			}
 			// header logo max-height
