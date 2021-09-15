@@ -19,7 +19,7 @@
 			<div class="blog-card-bottom-outer">
 				<div class="blog-card-bottom">
 					<div class="blog-card-author">
-						<a href="<?php echo get_author_posts_url(get_the_author_meta( 'ID' )); ?>"><?php echo get_avatar(get_the_author_meta('user_email'),'64'); ?></a>
+						<a href="<?php echo get_author_posts_url(get_the_author_meta( 'ID' )); ?>"><?php echo get_avatar(get_the_author_meta('user_email'),'128'); ?></a>
 					</div>
 					<a class="blog-card-more-link" href="<?php the_permalink(); ?>"><?php esc_html_e('Read more','cardstyle'); ?> <i class="fas fa-chevron-right"></i></a>
 					<ul class="blog-card-meta group">

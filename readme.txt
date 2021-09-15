@@ -87,5 +87,12 @@ Sidebar images
 
 == Changelog ==
 
+= 1.0.1 - 2021-09-15 =
+* Fixed page title spacing
+* Fixed footer ads box styling
+* Fixed avatar size for high res devices
+* Fixed more visible search button focus state
+* Fixed minor css styling issues
+
 = 1.0.0 - 2021-09-13 =
 * Initial release
