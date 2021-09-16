@@ -1,7 +1,7 @@
 /*
 Theme Name: Cardstyle
 Theme URI: http://alx.media/themes/cardstyle/
-Version: 1.0.1
+Version: 1.0.2
 Requires at least: 5.0
 Requires PHP: 5.6
 Tested up to: 5.8
@@ -976,7 +976,7 @@ box-shadow: 0 0 2px rgba(255,255,255,0.4);
 .blog-card-author { position: absolute; left: 40px; top: -40px; height: 100px; }
 .blog-card-author a { background: linear-gradient(90deg, #98ca2f 0%, #1a9b41 100%); display: block; border-radius: 100%; padding: 5px; position: relative; }
 .blog-card-author a:after { background: #fff; content:""; display: block; width: 82px; height: 40px; position: absolute; bottom: 0; left: -1px; }
-.blog-card-author img { display: block; width: 64px; height: 64px; border-radius: 100%; border: 3px solid #fff; position: relative; z-index: 2; }
+.blog-card-author img { background: #fff; display: block; width: 64px; height: 64px; border-radius: 100%; border: 3px solid #fff; position: relative; z-index: 2; }
 .blog-card-meta { padding: 40px 40px 0; font-size: 17px; color: rgba(0,0,0,0.5); }
 .single .blog-card-meta { padding-bottom: 30px; }
 .blog-card-meta li { float: left; border-right: 1px solid #eee; padding-right: 20px; margin-right: 20px; margin-bottom: 4px; }

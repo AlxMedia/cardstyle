@@ -87,6 +87,9 @@ Sidebar images
 
 == Changelog ==
 
+= 1.0.2 - 2021-09-16 =
+* Fixed avatar background for transparent avatars
+
 = 1.0.1 - 2021-09-15 =
 * Fixed page title spacing
 * Fixed footer ads box styling
