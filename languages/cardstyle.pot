@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Cardstyle\n"
-"POT-Creation-Date: 2021-09-15 12:17+0200\n"
+"POT-Creation-Date: 2021-09-17 12:53+0200\n"
 "PO-Revision-Date: 2018-09-21 21:27+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -63,83 +63,83 @@ msgstr ""
 msgid "Theme by"
 msgstr ""
 
-#: functions.php:93
+#: functions.php:86
 msgid "Mobile"
 msgstr ""
 
-#: functions.php:94 functions/theme-options.php:52
+#: functions.php:87 functions/theme-options.php:52
 msgid "Header"
 msgstr ""
 
-#: functions.php:188
+#: functions.php:181
 msgid "Primary"
 msgstr ""
 
-#: functions.php:188
+#: functions.php:181
 msgid "Normal full width sidebar"
 msgstr ""
 
-#: functions.php:190 functions/theme-options.php:290
+#: functions.php:183 functions/theme-options.php:290
 msgid "Footer Ads"
 msgstr ""
 
-#: functions.php:190
+#: functions.php:183
 msgid "Footer ads area"
 msgstr ""
 
-#: functions.php:192
+#: functions.php:185
 msgid "Frontpage Top 1"
 msgstr ""
 
-#: functions.php:192 functions.php:193 functions.php:194 functions.php:195
+#: functions.php:185 functions.php:186 functions.php:187 functions.php:188
 msgid "Frontpage area"
 msgstr ""
 
-#: functions.php:193
+#: functions.php:186
 msgid "Frontpage Top 2"
 msgstr ""
 
-#: functions.php:194
+#: functions.php:187
 msgid "Frontpage Bottom 1"
 msgstr ""
 
-#: functions.php:195
+#: functions.php:188
 msgid "Frontpage Bottom 2"
 msgstr ""
 
-#: functions.php:197
+#: functions.php:190
 msgid "Footer 1"
 msgstr ""
 
-#: functions.php:197 functions.php:198 functions.php:199 functions.php:200
+#: functions.php:190 functions.php:191 functions.php:192 functions.php:193
 msgid "Widgetized footer"
 msgstr ""
 
-#: functions.php:198
+#: functions.php:191
 msgid "Footer 2"
 msgstr ""
 
-#: functions.php:199
+#: functions.php:192
 msgid "Footer 3"
 msgstr ""
 
-#: functions.php:200
+#: functions.php:193
 msgid "Footer 4"
 msgstr ""
 
-#: functions.php:691
+#: functions.php:684
 msgid "Alx Extensions"
 msgstr ""
 
-#: functions.php:695
+#: functions.php:688
 msgid "Meta Box"
 msgstr ""
 
-#: functions.php:699
+#: functions.php:692
 msgid "Regenerate Thumbnails"
 msgstr ""
 
-#: functions.php:703
+#: functions.php:696
 msgid "WP-PageNavi"
 msgstr ""
 
